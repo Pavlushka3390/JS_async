@@ -10,7 +10,7 @@ function getPasswordChecker(password) {
 
 function test(checker, actualPass, password) {
     if(checker(actualPass) !== password) {
-        throw Error("test failed");
+        throw Error("Неверный пароль");
     }
 }
 
